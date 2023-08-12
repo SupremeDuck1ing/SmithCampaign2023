@@ -6,6 +6,10 @@ function plusSlides(n) {
     showSlides(slideIndex += 1);
 }
 
+function minusSlides(n) { 
+    showSlides(slideIndex -= 1);
+}
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
   }

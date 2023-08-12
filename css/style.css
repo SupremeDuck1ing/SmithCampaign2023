@@ -37,63 +37,6 @@ nav li a:hover  {
     background-color: #04AA6D;
 }
 
-/*Image Carousel*/
-
-.imgCarousel { 
-    max-width: 1000px; 
-    position: relative;
-    margin: 0 ;
-    padding: 0;
-}
-.mySlides { 
-    display: none;
-} 
-.prev, .next { 
-    cursor: pointer;
-    position: absolute;
-    top: 50%; 
-    width: auto;
-    margin-top: -22px; 
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    display: block;
-}
-.next { 
-    right: 0;
-    border-radius: 3px 0 0 3px; 
-}
-.prev:hover, .next:hover { 
-    background-color: rgba(0, 0, 0, 0.8);
-}
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-.numberText {
-    color: #f2f2f2;
-    font-size: 12px;
-    position: absolute;
-    top: 0;
-}
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
- 
 
 
 
@@ -139,6 +82,66 @@ nav li a:hover  {
     left: 50%; 
     transform: translate(-50%, -50%);
 }
+
+
+/*Image Carousel*/
+
+#imgCarousel { 
+    /* max-width: 1000px;  */
+    position: relative;
+    margin: 0 ;
+    padding: 0;
+}
+.mySlides { 
+    display: none;
+} 
+.prev, .next { 
+    cursor: pointer;
+    position: absolute;
+    width: 1%;
+    top: 80%;
+    /* margin-top: 50%;   */
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    display: block;
+}
+.next { 
+    right: /*125px*/0px;
+    border-radius: 3px 0 0 3px; 
+}
+.prev:hover, .next:hover { 
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numberText {
+    color: /*#f2f2f2*/black;
+    font-size: 12px;
+    position: relative;
+    top: 0;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+ 
+
 
 body { 
     margin: 0;
