@@ -46,6 +46,7 @@ nav li a:hover  {
 
 
 
+
 /*Main Body*/ 
 #mainContent { 
     margin: 0 auto;
@@ -75,19 +76,22 @@ nav li a:hover  {
 }
 #Landing #Facebook { 
     width: 20%;
-    color: black;
+    color: white;
     position: absolute;
     top: 0%;
     right: 0%;
     transform: translate(-0%,-0%);
 }
-#Landing #slogan { 
-    width: 700px;
-    height: 50px;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    color: black;
+#slogan { 
+    text-align: center;
+    width: 100%; 
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: red;
+    font-size: x-small;
+    color: white;
 }
 #calendar { 
     position: absolute;
@@ -95,6 +99,7 @@ nav li a:hover  {
     left: 50%; 
     transform: translate(-50%, -50%);
 }
+
 
 /*About Section*/
 #about { 
@@ -117,6 +122,66 @@ nav li a:hover  {
     font-size: large;
 }
 
+#endorse { 
+    width: 100%; 
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: red;
+}
+
+#endorse h1 { 
+    text-align: center;
+    color: white;
+}
+#endorse h2 { 
+    text-align: center;
+    color: white;
+}
+
+#endorse img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200 px;
+    width: 100px;
+}
+
+#early { 
+    width: 100%; 
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: red;
+} 
+#early h1 { 
+    text-align: center;
+    color: white;
+}
+#early p { 
+    text-align: center;
+    color: white;
+}
+
+#vote { 
+    width: 100%; 
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: red;
+}
+#vote h1 { 
+    text-align: center;
+    color: white;
+}
+#vote p { 
+    text-align: center;
+    color: white;
+}
+
 /*Contact Section*/
 #contact { 
     width: 100%; 
@@ -136,20 +201,24 @@ nav li a:hover  {
 }
 
 /*Platform Section*/ 
-#platform { 
+.platform { 
     width: 100%; 
-    height: 300px;
+    height: 400px;
     margin: 0;
     padding: 0;
     position: relative;
     background-color: red;
 }
 
-#platform h1 { 
+.platform h1 { 
     text-align: center;
     color: white;
 }
-#platform ul { 
+.platform h2 { 
+    text-align: center;
+    color: white;
+}
+.platform ul { 
     text-align: center;
     list-style-type: none;
     color: white;
