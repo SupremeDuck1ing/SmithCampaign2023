@@ -235,6 +235,13 @@ nav li a:hover  {
     padding: 0;
     background-color: grey;
 }
+#videoCarousel { 
+    margin-top: 25px;  
+    position: relative;
+    /* margin: 0 ; */
+    padding: 0;
+    background-color: grey;
+}
 .mySlides { 
     display: none;
     text-align: center;
