@@ -51,7 +51,7 @@ nav li a:hover  {
 #mainContent { 
     margin: 0 auto;
     width: 1700px;
-    background-color: white;
+    background-color: red;
 }
 
 #Landing { 
@@ -89,7 +89,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
     font-size: x-small;
     color: white;
 }
@@ -108,7 +108,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
 }
 
 #about h1 { 
@@ -128,7 +128,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
 }
 
 #endorse h1 { 
@@ -154,7 +154,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
 } 
 #early h1 { 
     text-align: center;
@@ -171,7 +171,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
 }
 #vote h1 { 
     text-align: center;
@@ -189,7 +189,7 @@ nav li a:hover  {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
     color: white;
     text-align: center;
 }
@@ -201,24 +201,69 @@ nav li a:hover  {
 }
 
 /*Platform Section*/ 
-.platform { 
+.PRplatform { 
     width: 100%; 
     height: 400px;
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: red;
+    background-color: #333;
+}
+.PRplatform h1 { 
+    text-align: center;
+    color: white;
+}
+.PRplatform h2 { 
+    text-align: center;
+    color: white;
+}
+.PRplatform ul { 
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    font-size: large;
 }
 
-.platform h1 { 
+.D9platform { 
+    width: 100%; 
+    height: 275px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #333;
+}
+.D9platform h1 { 
     text-align: center;
     color: white;
 }
-.platform h2 { 
+.D9platform h2 { 
     text-align: center;
     color: white;
 }
-.platform ul { 
+.D9platform ul { 
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    font-size: large;
+}
+
+.ORRplatform { 
+    width: 100%; 
+    height: 325px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #333;
+}
+.ORRplatform h1 { 
+    text-align: center;
+    color: white;
+}
+.ORRplatform h2 { 
+    text-align: center;
+    color: white;
+}
+.ORRplatform ul { 
     text-align: center;
     list-style-type: none;
     color: white;
@@ -292,7 +337,7 @@ body {
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/tim-mossholder-RhbUv7-vJBU-unsplash.jpg");
     background-size: cover;
 }
 footer { 
@@ -303,4 +348,5 @@ footer {
 
 p { 
     text-align: center;
+    color: white;
 }
