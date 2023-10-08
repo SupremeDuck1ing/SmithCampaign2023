@@ -270,6 +270,29 @@ nav li a:hover  {
     font-size: large;
 }
 
+.Bonterra { 
+    width: 100%; 
+    height: 425px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #333;
+}
+.Bonterra h1 { 
+    text-align: center;
+    color: white;
+}
+.Bonterra h2 { 
+    text-align: center;
+    color: white;
+}
+.Bonterra ul { 
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    font-size: large;
+}
+
 
 /*Image Carousel*/
 
